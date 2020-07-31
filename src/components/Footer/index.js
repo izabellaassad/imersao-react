@@ -1,12 +1,8 @@
-import React from 'react'
-import { FooterBase } from './styles'
+import React from 'react';
+import { FooterBase } from './styles';
 
 function Footer() {
-  return (
-    <FooterBase>
-
-    </FooterBase>
-  )
+  return <FooterBase />;
 }
 
-export default Footer
+export default Footer;

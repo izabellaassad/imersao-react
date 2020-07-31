@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import { VideoContainer, ResponsiveIframe } from './styles';
 
 function YouTubeIframeResponsive({ youtubeID }) {
@@ -16,4 +16,7 @@ function YouTubeIframeResponsive({ youtubeID }) {
   );
 }
 
+YouTubeIframeResponsive.propTypes = {
+  youtubeID: PropTypes.string.isRequired,
+};
 export default YouTubeIframeResponsive;

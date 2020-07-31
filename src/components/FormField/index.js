@@ -16,8 +16,8 @@ function FormField({ label, type, name, value, onChange }) {
 FormField.propTypes = {
   label: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  // type: PropTypes.string,
-  // value: PropTypes.string,
+  type: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
 };
 
